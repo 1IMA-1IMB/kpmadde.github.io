@@ -1,0 +1,29 @@
+
+.container {
+    display: flex;
+    justify-content: center;
+   
+}
+.a1 {
+    display: flex;
+    justify-content: center;
+    width: 20%;
+border: solid black 2px;
+height: 700px;
+}
+.a2 {
+    display: flex;
+    justify-content: center;
+    width: 100%;
+border: solid black 2px;
+height: 90px;
+}
+ 
+.a3 {
+    display: flex;
+    justify-content: center;
+    width: 20%;
+border: solid black 2px;
+height: 700px;
+}
+ 
