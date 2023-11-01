@@ -1,0 +1,51 @@
+body{
+    background-color: lightcyan;
+
+}
+
+.main-container{
+    display: flex;
+    flex-direction: column;
+    height: 100vh;
+}
+
+.header{
+    display: flex;
+    background-color: red;
+    height: 20%;
+    justify-content: center;
+    align-items: center;
+}
+
+.middle {
+    height: 60%;
+    background: blue;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+}
+.middle img{
+height: 100%;
+width: 30%;
+
+}
+.footer{
+    height: 20%;
+    background: yellow;
+}
+
+@media only screen and (max-width: 600px) {
+ .middle {
+background: lightgreen;
+flex-direction: column;
+justify-content: space-between;
+ }
+ .middle img{
+    width: 100%;
+    
+    
+ }
+     
+    }
+ 
