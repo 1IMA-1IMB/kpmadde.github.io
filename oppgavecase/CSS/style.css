@@ -1,0 +1,326 @@
+ 
+ body {
+       background-color: lightblue;
+ }
+ .Maincontainer{
+    height: 450vh;
+    align-items: center;
+    display: flex;
+    flex-direction: column;
+   
+
+    
+ 
+ }
+
+ .topnav{
+    height: 150px;
+    width: 100%;
+    border-radius: 8px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    
+
+ }
+
+.topnav a, a:active, a:visited{
+    color: white;
+}
+
+.topnav a{
+    padding: 3px;
+   
+}
+
+.Ads{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    height: 900px;
+   
+}
+
+.ads-box {
+    width: 100%;
+    height: 350px;
+    margin: 1.1em;
+}
+
+
+.container3{
+    height: 700px;
+    width: 1250px;
+    border: solid white; 
+    
+}
+
+h1{
+ justify-content: center; 
+ text-align:center;
+ font-family:'Courier New', Courier, monospace;
+}
+
+
+.ads-box img{
+    width: 100%;
+    height: 800px;
+    border-radius: 8px;
+}
+
+.adscontainer{
+    display: flex;
+    flex-direction: row;
+    border: solid;
+}
+.adbox h1{
+    position: absolute;
+    top: 5px;
+}
+
+
+.artist{
+ 
+    justify-content: center;
+    align-items: center;  
+}
+
+.album{
+    display: flex; 
+    flex-direction: row;
+    width: 100%;
+}
+
+.musicontainer{
+    width: 100%
+}
+img{
+    width: 100%;
+    height: 100%;
+  
+
+}
+
+.album2{
+    display: flex; 
+    flex-direction: row;
+    width: 100%;
+}
+
+h2{
+    font-family:'Courier New', Courier, monospace;
+    justify-content: center; 
+    text-align:center;
+    font-size: xx-large;
+}
+
+.videocontainer, .videocontainer2{
+    display: flex; 
+    flex-direction: column;
+    width: 100%;       
+}
+
+.videocontainer2{
+    margin-top:25%
+}
+
+.center{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    margin:auto
+}
+
+h3{
+font-family:'Courier New', Courier, monospace;
+    justify-content: center; 
+    text-align:center; 
+    font-size: xx-large;
+}
+
+h4{
+    font-family:'Courier New', Courier, monospace;
+        justify-content: center; 
+        text-align:center; 
+        font-size: xx-large;
+        margin-top: 130px;
+
+    }
+
+    .asitwas{
+        height: 50%;
+        width: 50%;
+        justify-content: center; 
+        text-align:center; 
+        align-items: center;
+    }
+
+    .rundtvideo{
+        height: 315px;
+        justify-content: center; 
+        align-items: center;
+        align-content: center;
+      
+    }
+    
+    .videocontainer iframe{
+        border: 8px;
+    }
+
+    .header-inner {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+        background-color: #154b75;
+        width: 100%;
+        height: 115px;
+        position: sticky;
+        top: 0;
+      }
+      .subheader {
+        display: flex;
+        flex-direction: row;
+        align-items: center;
+       justify-content: space-around;
+       margin-top: 2px;
+    }
+
+    .music {
+        display: flex;
+        justify-content: space-around;
+        height: 40px;
+        width: 200px;
+        align-items: center;
+        margin-top: -60px;
+     }
+      
+     .videos {
+         display: flex;
+         justify-content: space-around;
+         height: 40px;
+         width: 200px;
+         align-items: center;
+         margin-top: -60px;
+     }
+      
+     .merch {
+         display: flex;
+         justify-content: space-around;
+         height: 40px;
+         width: 200px;
+         align-items: center;
+         margin-top: -60px;
+     }
+     
+.tour {
+    display: flex;
+    justify-content: space-around;
+    height: 40px;
+    width: 200px;
+    align-items: center;
+    margin-top: -60px;
+}
+a {
+    color: rgb(187, 117, 117);
+    text-decoration: none;
+    padding: 2em;
+    font-size: large;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: 550;
+}
+ 
+input[type=text]:focus {
+     width: 100%;
+}
+ 
+a:hover {
+     color: rgb(239, 185, 185) ;
+}
+ h5{
+    font-size:xx-large;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    color: rgb(255, 255, 255);
+ }
+
+/*  .videocontainer2{
+    display: flex; 
+    flex-direction: row-reverse;
+    width: 100%;
+    height: 100%;
+} */
+
+
+.rundtvideo2{
+    height: 315px;
+    justify-content: center; 
+    align-items: center;
+    align-content: center;
+  
+}
+
+h6{
+    font-family:'Courier New', Courier, monospace;
+    justify-content: center; 
+    text-align:center; 
+    font-size: xx-large;
+    margin-top: 130px;
+
+}
+
+
+ 
+
+
+.rundtvideo2{
+    align-items: right;
+    justify-content: right;
+    align-content: right;
+}
+
+
+.signofthetimes{
+    height: 50%;
+    width: 50%;
+    justify-content: center; 
+    text-align:center; 
+    align-items: center;
+}
+
+
+@media only screen and (max-width: 600px) {
+
+ .Maincontainer{
+    width: 100%;
+}
+
+.topnav {
+    width: 100%;
+}
+
+   .album2{
+display: flex;
+flex-direction: column;
+   }
+   .album{
+    display: flex;
+    flex-direction: column;
+  
+   }
+   .artist{
+    height: 1500px;
+   }
+   .videocontainer{
+     display: flex;
+     flex-direction: column;
+   }
+   
+    
+
+  }
+frame{
+    width: 390px;
+}
+ 
